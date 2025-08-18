@@ -1,5 +1,7 @@
 # Building-Blocks
 
+## 📁 [Google Doc System Design Fundamentals](https://docs.google.com/document/d/1dldXDhjt7_3bD0ySEnZ4Lc4m4jl3YP3XsCWwJZcpgeM/edit?usp=sharing)
+
 - # 🌐 [01. Domain Name System ]()
 - # ⚖️ [02. Load Balancers ]()
 - # 🗄️ [03. Databases ]()
