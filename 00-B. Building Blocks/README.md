@@ -4,7 +4,7 @@
 - # ⚖️ [02. Load Balancers ]()
 - # 🗄️ [03. Databases ]()
 - # 🔑 [04. Key-Value Store ]()
-- # 📺 [05. Content Delivery Network (CDN) ](./05.%20CDN/)
+- # 📺 [05. Content Delivery Network (CDN) ☑️](./05.%20CDN/)
 - # 🔢 [06. Sequencer ]()
 - # 👁️ [07. Distributed Monitoring ]()
 - # 🖥️ [08. Monitor Server-side Errors ]()

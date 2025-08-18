@@ -4,7 +4,7 @@
 # System-Design
 - # 🤖💭✨ [00-A. Generic LLM Prompts](./00-A.%20LLM%20Prompts/🎯%20LLM%20Prompt:%20Generic%20System%20Design.md)
 - # [00-B. Building Blocks](./00-B.%20Building%20Blocks/)
-- # 📹🎥🎬 [01. YouTube](./01.%20YouTube/)
+- # 📹🎥🎬 [01. YouTube ☑️](./01.%20YouTube/)
 - # 🎵🎭📱 [02. TikTok [Mock interview]]()
 - # ❓🤔💡 [03. Quora]()
 - # 🗺️📍🧭 [04. Google Maps]()
