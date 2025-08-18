@@ -2,7 +2,7 @@
 
 
 # System-Design
-- # 🤖💭✨ [00. Generic LLM Prompts](./00.%20LLM%20Prompts/🎯%20LLM%20Prompt:%20Generic%20System%20Design.md)
+- # 🤖💭✨ [00. Generic LLM Prompts](./00-A.%20LLM%20Prompts/🎯%20LLM%20Prompt:%20Generic%20System%20Design.md)
 - # 📹🎥🎬 [01. YouTube](./01.%20YouTube/README.md)
 - # 🎵🎭📱 [02. TikTok [Mock interview]]()
 - # ❓🤔💡 [03. Quora]()
