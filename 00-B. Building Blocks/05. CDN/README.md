@@ -573,15 +573,15 @@ Picture the internet as a massive **global highway system** 🛣️! **Points of
                       ↕️         ↕️         ↕️
               ┌─────────────────────────────────────────┐
               │        🔄 INTERNET EXCHANGE POINT       │
-              │                (IXP)                   │
-              │  ┌─────┐  ┌─────┐  ┌─────┐  ┌─────┐   │
-              │  │🖥️ R1│  │🖥️ R2│  │🖥️ R3│  │🖥️ R4│   │
-              │  │ISP-A│  │ISP-B│  │ISP-C│  │CDN │   │
-              │  └─────┘  └─────┘  └─────┘  └─────┘   │
+              │                (IXP)                    │
+              │  ┌─────┐  ┌─────┐  ┌─────┐  ┌─────┐     │
+              │  │🖥️ R1│  │🖥️ R2│  │🖥️ R3│  │🖥️ R4│     │
+              │  │ISP-A│  │ISP-B│  │ISP-C│  │CDN  │     │
+              │  └─────┘  └─────┘  └─────┘  └─────┘     │
               │      ↕️       ↕️       ↕️       ↕️      │
               │  ┌───────────────────────────────────┐  │
-              │  │     🔀 ETHERNET SWITCH FABRIC    │  │
-              │  │   (Layer 2 Shared Network)      │  │
+              │  │     🔀 ETHERNET SWITCH FABRIC     │  │
+              │  │   (Layer 2 Shared Network)        │  │
               │  └───────────────────────────────────┘  │
               └─────────────────────────────────────────┘
                       ↕️         ↕️         ↕️
@@ -593,10 +593,10 @@ Picture the internet as a massive **global highway system** 🛣️! **Points of
                       ↕️         ↕️         ↕️
                  ┌─────────────────────────────────┐
                  │      🏢 ORIGIN SERVERS          │
-                 │   ┌─────┐ ┌─────┐ ┌─────┐      │
-                 │   │📺NF │ │🎵SP │ │📸IG │      │
-                 │   │FLIX │ │OTFY │ │STGM │      │
-                 │   └─────┘ └─────┘ └─────┘      │
+                 │   ┌─────┐ ┌─────┐ ┌─────┐       │
+                 │   │📺NF │ │🎵SP │ │📸IG │       │
+                 │   │FLIX │ │OTFY │ │STGM │       │
+                 │   └─────┘ └─────┘ └─────┘       │
                  └─────────────────────────────────┘
 ```
 
@@ -628,7 +628,7 @@ Picture the internet as a massive **global highway system** 🛣️! **Points of
 ├── Latency comparison: IXP vs transit (should be 30-50% better)
 ├── Traffic ratios: 70%+ via peering, <30% via transit  
 └── Peering utilization: Monitor for congestion hotspots
-```
+
 
 **Tip #4** 🛡️: **Security-First IXP Design**[15][2][8]
 ```
