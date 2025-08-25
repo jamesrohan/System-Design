@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [🚀 Content Delivery Networks (CDNs): The Ultimate System Design Guide 📺✨](#-content-delivery-networks-cdns-the-ultimate-system-design-guide-)
+  - [🔍 Overview \& Key Concepts](#-overview-%5C-key-concepts)
+  - [🏗️ Architecture Components](#-architecture-components)
+  - [🔄 Data Flow \& Interactions](#-data-flow-%5C-interactions)
+  - [⚖️ Trade-offs \& Design Decisions](#-trade-offs-%5C-design-decisions)
+  - [📊 Scalability Considerations](#-scalability-considerations)
+  - [🛠️ Implementation Details](#-implementation-details)
+  - [🚨 Common Pitfalls \& Solutions](#-common-pitfalls-%5C-solutions)
+  - [💡 Best Practices \& Tips](#-best-practices-%5C-tips)
+- [🌐 Points of Presence (PoPs) and Internet Exchange Points (IXPs): The Internet's Highway System 🛣️✨](#-points-of-presence-pops-and-internet-exchange-points-ixps-the-internets-highway-system-)
+  - [🔍 Overview & Key Concepts](#-overview--key-concepts)
+  - [🏗️ Architecture Components](#-architecture-components-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # 🚀 Content Delivery Networks (CDNs): The Ultimate System Design Guide 📺✨
