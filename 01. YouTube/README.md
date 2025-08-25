@@ -1,3 +1,31 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [🎬 Designing YouTube: The Ultimate Video Streaming Platform Architecture 🚀✨](#-designing-youtube-the-ultimate-video-streaming-platform-architecture-)
+  - [🧱 Core Building Blocks of YouTube](#-core-building-blocks-of-youtube)
+  - [🔍 Overview \& Key Concepts](#-overview-%5C-key-concepts)
+  - [🏗️ Architecture Components](#-architecture-components)
+  - [🔄 Data Flow \& Interactions](#-data-flow-%5C-interactions)
+  - [⚖️ Trade-offs \& Design Decisions](#-trade-offs-%5C-design-decisions)
+  - [📊 Scalability Considerations](#-scalability-considerations)
+  - [🛠️ Implementation Details](#-implementation-details)
+  - [🚨 Common Pitfalls \& Solutions](#-common-pitfalls-%5C-solutions)
+  - [💡 Best Practices \& Tips](#-best-practices-%5C-tips)
+- [Explain how the following calculations, and why do we save money with a higher cache hit rate?](#explain-how-the-following-calculations-and-why-do-we-save-money-with-a-higher-cache-hit-rate)
+- [💰 YouTube Cost Analysis: Breaking Down the Economics 🔍](#-youtube-cost-analysis-breaking-down-the-economics-)
+  - [🔢 How I Calculated Those Numbers](#-how-i-calculated-those-numbers)
+    - [📊 **Base Cost Components (2025 Market Rates)**](#-base-cost-components-2025-market-rates)
+    - [🔥 **Viral Video (10M+ views) Calculation**](#-viral-video-10m-views-calculation)
+  - [🎯 **Why Higher Cache Hit Rate Saves Money**](#-why-higher-cache-hit-rate-saves-money)
+    - [📈 **Cache Hit Rate Impact Analysis**](#-cache-hit-rate-impact-analysis)
+    - [🔥 **Real-World Example: MrBeast Video Launch**](#-real-world-example-mrbeast-video-launch)
+    - [🎭 **Why Each Percentage Point Matters**](#-why-each-percentage-point-matters)
+  - [🛠️ **How YouTube Achieves 99%+ Cache Hit Rates**](#-how-youtube-achieves-99%25-cache-hit-rates)
+  - [💡 **Key Takeaways**](#-key-takeaways)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
 # 🎬 Designing YouTube: The Ultimate Video Streaming Platform Architecture 🚀✨
