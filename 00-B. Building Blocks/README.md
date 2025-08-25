@@ -2,7 +2,7 @@
 
 ## 📁 [Google Doc System Design Fundamentals](https://docs.google.com/document/d/1dldXDhjt7_3bD0ySEnZ4Lc4m4jl3YP3XsCWwJZcpgeM/edit?usp=sharing)
 
-- # 🧮 [00. BOTC: Back of the envelope calcutions ]()
+- # 🧮 [00. BOTC: Back of the envelope calcutions ](./00.%20BOTEC/)
 - # 🌐 [01. Domain Name System ]()
 - # ⚖️ [02. Load Balancers ]()
 - # 🗄️ [03. Databases ]()
