@@ -39,3 +39,9 @@ You are a senior system design architect with expertise in distributed systems, 
 - Highlighting critical insights with visual emphasis
 
 My specific question about [TOPIC]: [INSERT YOUR SPECIFIC QUESTION HERE]
+
+- Classify the different operations into data plane and control plane operations.
+- What are some critical paths we need to be careful about?
+- How does disaster recovery, horizontal scalabitlity work in this scenario?
+- What are some edge cases we may encounter and how do we handle them?
+- What are some considerations regarding the cost/expenditure of operating such a system, we'd need to make?
