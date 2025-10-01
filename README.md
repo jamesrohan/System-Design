@@ -6,7 +6,7 @@
 - # 🧱🔗⚙️ [00-B. Building Blocks](./00-B.%20Building%20Blocks/)
 - # 📹🎥🎬 [01. YouTube ☑️](./01.%20YouTube/)
 - # 🎵🎭📱 [02. TikTok [Mock interview]]()
-- # ❓🤔💡 [03. Quora](./03.%20Quora/)
+- # ❓🤔💡 [03. Quora ☑️](./03.%20Quora/)
 - # 🗺️📍🧭 [04. Google Maps]()
 - # 📍🏪🔍 [05. Proximity Service / Yelp]()
 - # 🚗🚖📱 [06. Uber]()
