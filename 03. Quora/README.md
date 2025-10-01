@@ -1,46 +1,40 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [❓🤔💡 Designing Quora 🚀](#-designing-quora-)
+  - [🔍 Overview \& Key Concepts](#-overview--key-concepts)
+  - [🏗️ Architecture Components (with ASCII Diagram)](#️-architecture-components-with-ascii-diagram)
+  - [🔄 Data Flow \& Interactions (with ASCII Diagram)](#-data-flow--interactions-with-ascii-diagram)
+  - [⚖️ Data Plane vs Control Plane Operations](#️-data-plane-vs-control-plane-operations)
+    - [🎯 **Data Plane Operations** (User-Facing, High-Frequency)](#-data-plane-operations-user-facing-high-frequency)
+    - [🎛️ **Control Plane Operations** (Administrative, Low-Frequency)](#️-control-plane-operations-administrative-low-frequency)
+  - [🚨 Critical Paths We Need to Be Careful About](#-critical-paths-we-need-to-be-careful-about)
+    - [⚡ **Ultra-Critical Paths** (Sub-second Response Required)](#-ultra-critical-paths-sub-second-response-required)
+    - [🚦 **High-Priority Paths** (1-3 Second Tolerance)](#-high-priority-paths-1-3-second-tolerance)
+  - [📊 Horizontal Scalability \& Disaster Recovery](#-horizontal-scalability--disaster-recovery)
+    - [🔄 **Horizontal Scaling Patterns**](#-horizontal-scaling-patterns)
+    - [🏥 **Disaster Recovery Architecture**](#-disaster-recovery-architecture)
+  - [🎭 Edge Cases \& Handling Strategies](#-edge-cases--handling-strategies)
+    - [🔥 **High-Traffic Edge Cases**](#-high-traffic-edge-cases)
+    - [💥 **System Failure Edge Cases**](#-system-failure-edge-cases)
+    - [🧠 **Data Consistency Edge Cases**](#-data-consistency-edge-cases)
+  - [💰 Cost Optimization Considerations](#-cost-optimization-considerations)
+    - [📊 **Major Cost Centers**](#-major-cost-centers)
+    - [🎯 **Cost Optimization Techniques**](#-cost-optimization-techniques)
+    - [💡 **Revenue Impact Calculations**](#-revenue-impact-calculations)
+  - [🛠️ Implementation Details](#️-implementation-details)
+    - [🔧 **Technology Stack**](#-technology-stack)
+    - [🔄 **API Design Patterns**](#-api-design-patterns)
+  - [🚨 Common Pitfalls \& Solutions](#-common-pitfalls--solutions)
+    - [❌ **Anti-Patterns to Avoid**](#-anti-patterns-to-avoid)
+    - [✅ **Best Practices \& Tips**](#-best-practices--tips)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# 🚀 System Design Expert Mode 🚀
-
-You are a senior system design architect with expertise in distributed systems, scalability, and software architecture. I want to learn about designing quora, like here [https://www.educative.io/courses/grokking-the-system-design-interview/system-design-quora](https://www.educative.io/courses/grokking-the-system-design-interview/system-design-quora).
-📋 Requirements for your response: • Use emojis liberally throughout your explanation to make it engaging and visual • Start every section title/heading with a relevant emoji • Include ASCII text diagrams that incorporate emojis to illustrate concepts • Make complex technical concepts accessible and memorable
-🎨 Response Structure:
-🔍 Overview \& Key Concepts
-🏗️ Architecture Components (with ASCII diagram)
-🔄 Data Flow \& Interactions (with ASCII diagram)
-⚖️ Trade-offs \& Design Decisions
-📊 Scalability Considerations
-🛠️ Implementation Details
-🚨 Common Pitfalls \& Solutions
-💡 Best Practices \& Tips
-🎯 For each section:
-Use emojis to highlight important points (⚡ for performance, 🔒 for security, 💾 for storage, etc.)
-Create ASCII diagrams with emojis representing different system components
-Explain WHY design decisions are made, not just WHAT they are
-Include real-world examples from companies like Netflix 📺, Uber 🚗, or Instagram 📸
-Include emojis at the begining of titles
-📐 ASCII Diagram Guidelines:
-Use boxes made of characters like ┌─┐ │ │ └─┘ for components
-Use arrows like → ← ↑ ↓ ⟷ for data flow
-Include emojis within or next to components (📱 for mobile, 💻 for web, 🗄️ for database, ☁️ for cloud services)
-Show relationships and connections clearly
-Keep diagrams readable and not overly complex
-🎪 Make it engaging by:
-Using storytelling elements where appropriate
-Adding personality to explanations
-Including memorable analogies with emojis
-Highlighting critical insights with visual emphasis
-
-My specific question about this topic:
-Classify the different operations into data plane and control plane operations.
-What are some critical paths we need to be careful about?
-How does disaster recovery, horizontal scalability work in this scenario?
-What are some edge cases we may encounter and how do we handle them?
-What are some considerations regarding the cost/expenditure of operating such a system, we'd need to make?
-
-Based on my research into Quora's system architecture and design patterns, I'll provide you with a comprehensive guide to system design for a platform like Quora, addressing your specific questions about data plane vs control plane operations, critical paths, scalability, disaster recovery, edge cases, and cost considerations.
-
-# 🚀 System Design Expert Mode: Designing Quora 🚀
+# ❓🤔💡 Designing Quora 🚀
 
 ## 🔍 Overview \& Key Concepts
 
