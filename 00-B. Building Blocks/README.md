@@ -23,7 +23,7 @@
 - # 🔢 [18. Sharded Counters ]()
 - # 📹 [19. Design YouTube ]()
 - # ❓ [20. Design Quora ]()
-- # 🤖 [21. Modern Software Engineering with AI](https://themodernsoftware.dev/)
+- # 🤖 [21. Modern Software Engineering with AI](./21.%20Modern%20Software%20Engineering%20with%20AI/)
 [1] https://www.educative.io/courses/grokking-the-system-design-interview
 [2] https://www.educative.io/courses/grokking-the-system-design-interview/introduction-to-building-blocks-for-modern-system-design
 [3] https://www.educative.io/courses/grokking-the-system-design-interview/introduction-to-modern-system-design
